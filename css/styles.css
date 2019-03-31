@@ -1,57 +1,21 @@
-/* stye the unordered list for the top navigation bar */
-ul.nav-title {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+  /*
+  .img-wrap {
+    position: relative;
+    display: inline-block;
     overflow: hidden;
-    background-color: #D5D5D5;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-/* style the links to flow left to right */
-li.nav-title {
-    float: left;
-}
-
-/* style links (children of list items) to not have decoration */
-li.nav-title a {
+    margin: 0;
+  }
+  div > img {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: sans-serif;
-}
-
-/* style mouse-over to highlight the button if it's not active */
-li.nav-title a:hover:not(.active) {
-    background-color: #BABFC5;
-}
-
-/* style the "active" button a different color */
-.active {
-    background-color: #9099A2;
-}
-
-/* style the body of the site's pages */
-.site-body {
-    padding: 20px;
-    margin-top: 30px;
-    background-color: white;
-    /* height:1500px; */
-}
-
-.clearfix {
-    overflow: auto;
-}
-
-.img-float {
-    float: left;
-    margin: 0px 1%;
-}
-
-body {
-    font-family: sans-serif;
-}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+  }
+  */
